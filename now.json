@@ -4,6 +4,7 @@
 {
   "builds": [
     { "src": "*.html", "use": "@now/static" },
+    { "src": "date.js", "use": "@now/node" },
     { "src": "app.R", "use": "@now/static" }
   ]
 }
