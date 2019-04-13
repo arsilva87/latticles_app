@@ -1,3 +1,9 @@
 {
   "name": "<latticles>"
 }
+{
+  "builds": [
+    { "src": "*.html", "use": "@now/static" },
+    { "src": "app.R", "use": "@now/static" }
+  ]
+}
