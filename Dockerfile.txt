@@ -1,0 +1,3 @@
+FROM rocker/shiny
+RUN R -e "install.packages(c('shiny', 'xml2', 'DT'))"
+COPY /app/ /srv/shiny-server/
