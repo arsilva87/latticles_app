@@ -19,22 +19,48 @@ artigosLattes <- function(XML, area, anos)
 
    if(area == "ADM") {
       qualis <- read.csv("qualisADM.csv", colClasses = "character")
+   } else if(area == "ANT") {
+      qualis <- read.csv("qualisANT.csv", colClasses = "character")
+   } else if(area == "AUD") {
+      qualis <- read.csv("qualisAUD.csv", colClasses = "character")
+   } else if(area == "ART") {
+      qualis <- read.csv("qualisART.csv", colClasses = "character")
    } else if(area == "FIS") {
       qualis <- read.csv("qualisFIS.csv", colClasses = "character")
    } else if(area == "BIOD") {
       qualis <- read.csv("qualisBIOD.csv", colClasses = "character")
    } else if(area == "BIOT") {
       qualis <- read.csv("qualisBIOT.csv", colClasses = "character")
-   } else if(area == "CAI") {
-      qualis <- read.csv("qualisCAI.csv", colClasses = "character")
-   } else if(area == "ALI") {
-      qualis <- read.csv("qualisALI.csv", colClasses = "character")
-   } else if(area == "AMB") {
-      qualis <- read.csv("qualisAMB.csv", colClasses = "character")
-   } else if(area == "BIOI") {
-      qualis <- read.csv("qualisBIOI.csv", colClasses = "character")
    } else if(area == "COM") {
       qualis <- read.csv("qualisCOM.csv", colClasses = "character")
+   } else if(area == "ALI") {
+      qualis <- read.csv("qualisALI.csv", colClasses = "character")
+   } else if(area == "CPRI") {
+      qualis <- read.csv("qualisCPRI.csv", colClasses = "character")
+   } else if(area == "CAI") {
+      qualis <- read.csv("qualisCAI.csv", colClasses = "character")
+   } else if(area == "AMB") {
+      qualis <- read.csv("qualisAMB.csv", colClasses = "character")
+   } else if(area == "BIO1") {
+      qualis <- read.csv("qualisBIO1.csv", colClasses = "character")
+   } else if(area == "BIO2") {
+      qualis <- read.csv("qualisBIO2.csv", colClasses = "character")
+   } else if(area == "BIO3") {
+      qualis <- read.csv("qualisBIO3.csv", colClasses = "character")
+   } else if(area == "CRT") {
+      qualis <- read.csv("qualisCRT.csv", colClasses = "character")
+   } else if(area == "COMI") {
+      qualis <- read.csv("qualisCOMI.csv", colClasses = "character")
+   } else if(area == "DIR") {
+      qualis <- read.csv("qualisDIR.csv", colClasses = "character")
+   } else if(area == "ECO") {
+      qualis <- read.csv("qualisECO.csv", colClasses = "character")
+   } else if(area == "EDU") {
+      qualis <- read.csv("qualisEDU.csv", colClasses = "character")
+   } else if(area == "EDUF") {
+      qualis <- read.csv("qualisEDUF.csv", colClasses = "character")
+   } else if(area == "ENF") {
+      qualis <- read.csv("qualisENF.csv", colClasses = "character")
    } else if(area == "ENG1") {
       qualis <- read.csv("qualisENG1.csv", colClasses = "character")
    } else if(area == "ENG2") {
@@ -45,16 +71,48 @@ artigosLattes <- function(XML, area, anos)
       qualis <- read.csv("qualisENG4.csv", colClasses = "character")
    } else if(area == "ENS") {
       qualis <- read.csv("qualisENS.csv", colClasses = "character")
+   } else if(area == "FAR") {
+      qualis <- read.csv("qualisFAR.csv", colClasses = "character")
+   } else if(area == "FIL") {
+      qualis <- read.csv("qualisFIL.csv", colClasses = "character")
+   } else if(area == "GEOC") {
+      qualis <- read.csv("qualisGEOC.csv", colClasses = "character")
+   } else if(area == "GEOG") {
+      qualis <- read.csv("qualisGEOG.csv", colClasses = "character")
+   } else if(area == "HIS") {
+      qualis <- read.csv("qualisHIS.csv", colClasses = "character")
    } else if(area == "INT") {
       qualis <- read.csv("qualisINT.csv", colClasses = "character")
    } else if(area == "LET") {
       qualis <- read.csv("qualisLET.csv", colClasses = "character")
    } else if(area == "MAT") {
       qualis <- read.csv("qualisMAT.csv", colClasses = "character")
-   } else if(area == "QUI") {
-      qualis <- read.csv("qualisQUI.csv", colClasses = "character")
+   } else if(area == "MTR") {
+      qualis <- read.csv("qualisMTR.csv", colClasses = "character")
+   } else if(area == "MED1") {
+      qualis <- read.csv("qualisMED1.csv", colClasses = "character")
+   } else if(area == "MED2") {
+      qualis <- read.csv("qualisMED2.csv", colClasses = "character")
+   } else if(area == "MED3") {
+      qualis <- read.csv("qualisMED3.csv", colClasses = "character")
    } else if(area == "VET") {
       qualis <- read.csv("qualisVET.csv", colClasses = "character")
+   } else if(area == "NUT") {
+      qualis <- read.csv("qualisNUT.csv", colClasses = "character")
+   } else if(area == "ODO") {
+      qualis <- read.csv("qualisODO.csv", colClasses = "character")
+   } else if(area == "PLA") {
+      qualis <- read.csv("qualisPLA.csv", colClasses = "character")
+   } else if(area == "PSI") {
+      qualis <- read.csv("qualisPSI.csv", colClasses = "character")
+   } else if(area == "QUI") {
+      qualis <- read.csv("qualisQUI.csv", colClasses = "character")
+   } else if(area == "SAU") {
+      qualis <- read.csv("qualisSAU.csv", colClasses = "character")
+   } else if(area == "SER") {
+      qualis <- read.csv("qualisSER.csv", colClasses = "character")
+   } else if(area == "SOC") {
+      qualis <- read.csv("qualisSOC.csv", colClasses = "character")
    } else if(area == "ZOO") {
       qualis <- read.csv("qualisZOO.csv", colClasses = "character")
    }
