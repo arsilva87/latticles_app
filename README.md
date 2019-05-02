@@ -8,6 +8,10 @@ Este aplicativo web foi construído com o pacote shiny do software livre R.
 ```r
 library(devtools)
 install_github("arsilva87/latticles")
+```
+
+# Execute o app
+```r
 library(latticles)
 latticles()
-```
+``
