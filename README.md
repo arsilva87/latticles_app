@@ -5,11 +5,9 @@ Este aplicativo web foi construído com o pacote shiny do software livre R.
 
 # Instalação
 
-Faça o download de todos os arquivos e extraia em uma pasta. Em seguida, faça a instalação do R-Portable na mesma pasta, mantendo os aqrquivos de instalação num diretório de mesmo nome (R-Portable). 
-Execute o arquivo R-Portable.exe e instale os pacotes 'shiny' e 'xml2'.
-
 ```r
-install.packages(c("shiny", "xml2"))
+library(devtools)
+install_github("arsilva87/latticles")
+library(latticles)
+latticles()
 ```
-
-Feche o R e execute o arquivo latticles.exe.
