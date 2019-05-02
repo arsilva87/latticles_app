@@ -14,4 +14,4 @@ install_github("arsilva87/latticles")
 ```r
 library(latticles)
 latticles()
-``
+```
