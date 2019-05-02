@@ -1,9 +1,9 @@
-f76dceeb3c87f8dac201114ba2854b2f *DESCRIPTION
+7d65226305f1e726b6de7b3419d00cf7 *DESCRIPTION
 bff1e4f320e95c64ac288aa2cc1fae36 *help/aliases.rds
 9a06f5cebefb3aad979bc927e2d0f6e3 *help/AnIndex
-88e9a151990658dc58809aaec0db87b2 *help/latticles.rdb
-ec74b0ce0439c22280f7ec6a9d156043 *help/latticles.rdx
-418c713fcc2db75523c107ca54e838bc *help/paths.rds
+33a86f55050d1c064a88f6ca194473ee *help/latticles.rdb
+5b69f7c7c5c188cfc9cf43630ce68d49 *help/latticles.rdx
+42d9e1ca2249858c541fa6f6d21c2daf *help/paths.rds
 2f3c7a1178f49a93c7d34a9d60c8c28c *html/00Index.html
 17f37764461224b59478748c7a18f861 *html/R.css
 9746edb3302220742d31f80fa3773e2b *INDEX
@@ -16,7 +16,7 @@ ec74b0ce0439c22280f7ec6a9d156043 *help/latticles.rdx
 f476f8e06c8b2106a714c5eeb199e989 *Meta/hsearch.rds
 030cadd49ccba95ab35b72b72d38011c *Meta/links.rds
 9f74f21276739bfd087b184e254c9222 *Meta/nsInfo.rds
-d12f31cad9572d2e921feffa2e00e703 *Meta/package.rds
+6fa9ad9ebbebd41444e527a10b6f8cd8 *Meta/package.rds
 0aa4d3352a605a59dfafeaceaec7eb12 *Meta/Rd.rds
 249baec94c5ade1c642a5922dcd46814 *NAMESPACE
 700bf132b03b6b63f374f925c288ccb5 *R/latticles
