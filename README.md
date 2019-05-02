@@ -4,10 +4,11 @@ Importe artigos, classifique pelo Qualis-CAPES (2013-2016) e calcule metricas co
 Este aplicativo web foi construído com o pacote shiny do software livre R.
 
 # Instalação
+Solicite código token de autorização de instalação ao desenvolvedor do pacote (anderson.silva@ifgoiano.edu.br), e então:
 
 ```r
 library(devtools)
-install_github("arsilva87/latticles")
+install_github("arsilva87/latticles", auth_token = "copiartoken")
 ```
 
 # Execute o app
