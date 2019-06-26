@@ -283,13 +283,19 @@ artigosLattes <- function(XML, area, anos)
       # loop
       MS = DS = Outra = factor(levels = seq(anos[1], anos[2]))
       for(i in grep("MESTRADO", orien)) {
+      if(is.null(attr(orien[[i]][["DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-MESTRADO"]], "ANO")))
+         MS[i] <- NA else
          MS[i] <- attr(orien[[i]][["DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-MESTRADO"]], "ANO")
       }
       for(i in grep("DOUTORADO", orien)) {
-         DS[i] <- attr(orien[[i]][["DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO"]], "ANO")
+         if(is.null(attr(orien[[i]][["DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO"]], "ANO")))
+            DS[i] <- NA else
+            DS[i] <- attr(orien[[i]][["DADOS-BASICOS-DE-ORIENTACOES-CONCLUIDAS-PARA-DOUTORADO"]], "ANO")
       }
       for(i in grep("OUTRAS", orien)) {
-         Outra[i] <- attr(orien[[i]][["DADOS-BASICOS-DE-OUTRAS-ORIENTACOES-CONCLUIDAS"]], "ANO")
+         if(is.null(attr(orien[[i]][["DADOS-BASICOS-DE-OUTRAS-ORIENTACOES-CONCLUIDAS"]], "ANO")))
+            Outra[i] <- NA else
+            Outra[i] <- attr(orien[[i]][["DADOS-BASICOS-DE-OUTRAS-ORIENTACOES-CONCLUIDAS"]], "ANO")
       }
       outorien <- t(sapply(list(Mestrado = MS, Doutorado = DS, Outra = Outra), table))
    } else { 
