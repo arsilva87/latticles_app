@@ -341,7 +341,7 @@ summargins <- function(table) {
 ui <- fluidPage(
    # App title
    titlePanel("Latticles App"),
-   helpText("Importe artigos, classifique pelo Qualis-CAPES (2013-2016) e calcule metricas como Eq. A1 e quantitativo A1_A2_B1, tudo de forma automatica a partir de arquivos XML do curriculo Lattes."),
+   helpText("Importe artigos, classifique pelo Qualis-CAPES (2013-2016) e calcule metricas como Equivalente A1 e quantitativo A1+A2+B1, tudo de forma automatica a partir de arquivos XML do curriculo Lattes."),
    sidebarLayout(
       # Menu here
       sidebarPanel(
