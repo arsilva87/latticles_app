@@ -17,5 +17,5 @@ latticles()
 ```
 
 # Contato
-Desenvolvedor/mantenedor do pacote: da Silva, A. R. (anderson.silva@ifgoiano.edu.br)
+Desenvolvedor/mantenedor do pacote: da Silva, A. R. (anderson.silva@ifgoiano.edu.br).
 Instituto Federal Goiano - Campus Urutaí
