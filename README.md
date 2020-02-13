@@ -8,7 +8,7 @@ Solicite código token de autorização de instalação ao desenvolvedor do paco
 
 ```r
 library(devtools)
-install_github("arsilva87/latticles", auth_token = "copiartoken")
+install_github("arsilva87/latticles")
 ```
 
 # Execute o app
