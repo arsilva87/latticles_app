@@ -2,7 +2,7 @@
 
 `Versão 1.0, para análise individual`
 
-latticles é um aplictaivo web construído com o pacote shiny do software livre R <www.r-project.org> para auxiliar na avaliação de produções científicas contidas na Plataforma Lattes do CNPq <http://lattes.cnpq.br/>, em especial as publicações em periódicos científicos cadastrados no Qualis-CAPES <https://sucupira.capes.gov.br/>. Trata-se de uma ferramenta de gestão institucional da Pesquisa e Pós-Graduação que permite importar artigos, classificar pelo Qualis Periódicos (2013-2016, de todas as 49 áreas de avaliação) e calcular métricas como Equivalente A1 e quantitativo A1+A2+B1 e outras, tudo de forma automatizada a partir de arquivos XML do currículo Lattes (observe "XML" no canto superior direito do seu Lattes). Outras informações como produção de livros, capítulos e orientações concluídas também são quantificadas pelo App. O usuário tem acesso à gráficos autoexplicativos 
+latticles é um aplictaivo web construído com o pacote shiny do software livre R <https://www.r-project.org/> para auxiliar na avaliação de produções científicas contidas na Plataforma Lattes do CNPq <http://lattes.cnpq.br/>, em especial as publicações em periódicos científicos cadastrados no Qualis-CAPES <https://sucupira.capes.gov.br/>. Trata-se de uma ferramenta de gestão institucional da Pesquisa e Pós-Graduação que permite importar artigos, classificar pelo Qualis Periódicos (2013-2016, de todas as 49 áreas de avaliação) e calcular métricas como Equivalente A1 e quantitativo A1+A2+B1 e outras, tudo de forma automatizada a partir de arquivos XML do currículo Lattes (observe "XML" no canto superior direito do seu Lattes). Outras informações como produção de livros, capítulos e orientações concluídas também são quantificadas pelo App. O usuário tem acesso à gráficos autoexplicativos 
 
 latticles é uma iniciativa sem fins lucrativos, desenvolvido especialmente para auxiliar na autoavaliação de pesquisadores nacionais. Contribuições, críticas e sugestões são bem-vindas.
 
@@ -13,7 +13,7 @@ A versão 2.0 do app latticles foi também construída no formato shiny para fac
 latticles2 é uma iniciativa sem fins lucrativos, desenvolvido especialmente para a autoavaliação de Programas de Pós-Graduação nacionais, com o objetivo primário de promover o crescimento e fortalecimento destes.
 
 # Instalação
-Para instalação do app é preciso ter instalada uma versão recente (>3.4) do software R. Em seguida, o pacote `devtools` deverá ser instalado com:
+Para instalação do app é preciso ter instalada uma versão recente (>3.4) do software R (baixe o R: <https://cran.r-project.org/>). Em seguida, o pacote `devtools` deverá ser instalado com:
 
 ```r
 install.packages(devtools)
