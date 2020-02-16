@@ -41,7 +41,8 @@ da Silva, A.R. (2019). Latticles: avaliacao eficiente da producao cientifica. Pr
 
 # Contato
 Desenvolvedor/mantenedor do pacote: da Silva, A. R. <anderson.silva@ifgoiano.edu.br>.
-Instituto Federal Goiano - Campus Urutaí
+Instituto Federal Goiano - Campus Urutaí.
+
 Lattes: <http://lattes.cnpq.br/3916683240962357>
 
 # Licenca
