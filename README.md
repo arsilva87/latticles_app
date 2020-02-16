@@ -38,6 +38,8 @@ Ou, para executar a versão 2.0,
 latticles2::latticles2()
 ```
 
+Para mais instruções, assista ao vídeo demonstrativo em: <https://youtu.be/mi-etEUeL2Y>
+
 # Citação
 Para citar o programa em publicações, use:
 
