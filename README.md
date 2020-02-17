@@ -54,14 +54,3 @@ Lattes: <http://lattes.cnpq.br/3916683240962357>
 # Licença
 GNU General Public Licence, version 3.0.
 Latticles (C) Copyright 2019 da Silva, A. R.
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147928758-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-147928758-2');
-</script>
