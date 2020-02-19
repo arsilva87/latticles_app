@@ -52,9 +52,7 @@ Instituto Federal Goiano - Campus Urutaí.
 Lattes: <http://lattes.cnpq.br/3916683240962357>
 
 # Licença
-GNU General Public Licence, version 3.0.
-Latticles (C) Copyright 2019 da Silva, A. R.
+Latticles (C) Copyright 2019 da Silva, A. R. GNU General Public Licence, version 3.0.
 
 
-#
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />O conteúdo desta página está sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.
