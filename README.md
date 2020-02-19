@@ -59,11 +59,11 @@ Latticles (C) Copyright 2019 da Silva, A. R. GNU General Public Licence, version
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147928758-2"></script>
-<script>
+<a async src="https://www.googletagmanager.com/gtag/js?id=UA-147928758-2"></a>
+<a>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-147928758-2');
-</script>
+</a>
