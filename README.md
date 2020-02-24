@@ -43,16 +43,16 @@ Para mais instruções, assista aos vídeos demonstrativos em: <https://youtu.be
 # Citação
 Para citar o programa em publicações, use:
 
-da Silva, A.R. (2019). Latticles: avaliacao eficiente da producao cientifica. Programa de computador. Registro INPI: BR512019001166-0. Disponível em: <https://arsilva87.github.io/latticles_app>.
+Da Silva, A.R. (2019). Latticles: avaliacao eficiente da producao cientifica. Programa de computador. Registro INPI: BR512019001166-0. Disponível em: <https://arsilva87.github.io/latticles_app>.
 
 # Contato
-Desenvolvedor/mantenedor do pacote: da Silva, A. R. <anderson.silva@ifgoiano.edu.br>.
+Desenvolvedor/mantenedor do pacote: Da Silva, A. R. <anderson.silva@ifgoiano.edu.br>.
 Instituto Federal Goiano - Campus Urutaí.
 
 Lattes: <http://lattes.cnpq.br/3916683240962357>
 
 # Licença
-Latticles (C) Copyright 2019 da Silva, A. R. GNU General Public Licence, version 3.0.
+Latticles (C) Copyright 2019 Da Silva, A. R. GNU General Public Licence, version 3.0.
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />O conteúdo desta página está sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional</a>.
