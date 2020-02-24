@@ -1,1 +1,8 @@
 theme: jekyll-theme-leap-day
+title: latticles_app
+description: Análise eficiente da produção científica e técnica
+url: https://arsilva87.github.io/latticles_app/
+author: Anderson R da Silva
+plugins:
+  - jekyll-seo-tag
+google_analytics: UA-147928758-2
