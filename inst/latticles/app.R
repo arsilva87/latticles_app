@@ -9,7 +9,7 @@ artigosLattes <- function(XML, area, anos)
    if(is.null(anos)) return()
 
    nome <- attr(as_list(xml_children(XML)[[1]]), "NOME-COMPLETO")
-   atuali <- attr(as_list(XML)$"CURRICULO-VITAE", "DATA-ATUALIZACAO")
+   atuali <- attr(as_list(xml_parent(XML))$"CURRICULO-VITAE", "DATA-ATUALIZACAO")
    datat <- strsplit(atuali, "")[[1]]
    datat. <- paste0(datat[1], datat[2], "-", datat[3], datat[4], "-", 
       datat[5], datat[6], datat[7], datat[8])
@@ -406,7 +406,7 @@ ui <- fluidPage(
          tags$img(src = "agrometrics.jpg", heigth = 110, width = 110),
          tags$img(src = "ppgpp.png", heigth = 90, width = 90),
          tags$img(src = "logoIF.png", heigth = 90, width = 90),
-         helpText("Developed by: Silva, A. R. (anderson.silva@ifgoiano.edu.br)"))
+         helpText("Developed by: da Silva, A. R. (anderson.silva@ifgoiano.edu.br)"))
       ),
       # Ouput here
       mainPanel(
