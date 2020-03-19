@@ -13,7 +13,10 @@ A versão 2.0 do app latticles foi também construída no formato shiny para fac
 latticles2 é uma iniciativa sem fins lucrativos, desenvolvido especialmente para a autoavaliação de Programas de Pós-Graduação nacionais, com o objetivo primário de promover o crescimento e fortalecimento destes.
 
 # Instalação
-Para instalação do app é preciso ter instalada uma versão recente (>3.4) do software R (download: <https://cran.r-project.org/>). Em seguida, o pacote `devtools` deverá ser instalado com (copie e cole os comandos a seguir no console do R):
+
+Antes mesmo de instalar em seu computador, saiba que você pode também executar a versão 2.0 diretamente através da nuvem. Acesse https://arsilva.shinyapps.io/latticles2/
+
+Para instalação de ambas as versões é preciso ter instalada uma versão recente (>3.4) do software R (download: <https://cran.r-project.org/>). Em seguida, o pacote `devtools` deverá ser instalado com (copie e cole os comandos a seguir no console do R):
 
 ```r
 install.packages("devtools")
