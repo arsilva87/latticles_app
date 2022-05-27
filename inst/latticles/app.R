@@ -398,7 +398,7 @@ ui <- fluidPage(
                           "Zootecnia, Recursos Pesqueiros" = "ZOO"),
               multiple = TRUE, options = list(maxItems = 1), select = NULL),
          sliderInput("range", "Intervalo de tempo:",
-              min = 2000, max = 2021, value = c(2014, 2019), step = 1, sep = ""),
+              min = 2000, max = 2023, value = c(2017, 2021), step = 1, sep = ""),
          submitButton("Submit"),
          br(),
          tags$hr(),
